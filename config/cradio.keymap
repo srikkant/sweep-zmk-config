@@ -13,19 +13,19 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R            &kp T               &mt GRAVE Y              &kp U            &kp I      &kp O    &kp P
-&kp A  &kp S  &kp D  &kp F            &kp G               &kp H                    &mt RIGHT_GUI J  &kp K      &kp L    &kp SEMI
-&kp Z  &kp X  &kp C  &kp V            &kp B               &kp N                    &kp M            &kp COMMA  &kp DOT  &kp SQT
-                     &mt LCTRL ENTER  &mt LSHIFT SPACE    &mt RIGHT_ALT BACKSPACE  &to 1
+&kp Q  &kp W        &kp E       &kp R                &kp T               &mt RA(ENTER) Y      &kp U            &kp I       &kp O        &kp P
+&kp A  &mt LCTRL S  &mt LALT D  &mt LGUI F           &mt LC(B) G         &mt RC(B) H          &mt RIGHT_GUI J  &mt RALT K  &mt RCTRL L  &kp SEMI
+&kp Z  &kp X        &kp C       &kp V                &kp B               &kp N                &kp M            &kp COMMA   &kp DOT      &kp SQT
+                                &mt LCTRL BACKSPACE  &mt LSHIFT SPACE    &mt RIGHT_ALT ENTER  &to 1
             >;
         };
 
         right_layer {
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp MINUS    &mt GRAVE LEFT_PARENTHESIS  &kp RPAR            &kp LBKT  &kp RBKT   &kp BSLH
-&kp TAB  &kp N4  &kp N5  &kp N6  &kp EQUAL    &kp LEFT                    &mt RIGHT_GUI DOWN  &kp UP    &kp RIGHT  &trans
-&kp DEL  &kp N7  &kp N8  &kp N9  &kp N0       &kp FSLH                    &kp QMARK           &trans    &trans     &to 2
-                         &to 0   &trans       &trans                      &trans
+&kp ESC    &kp N1        &kp N2       &kp N3       &kp MINUS          &mt RA(ENTER) LPAR    &kp RPAR            &kp LBKT           &kp RBKT         &kp BSLH
+&kp TAB    &mt LCTRL N4  &mt LALT N5  &mt LCMD N6  &mt RC(B) EQUAL    &mt RC(B) LEFT_ARROW  &mt RIGHT_GUI DOWN  &mt RALT UP_ARROW  &mt RCTRL RIGHT  &kp BACKSPACE
+&kp GRAVE  &kp N7        &kp N8       &kp N9       &kp N0             &kp FSLH              &kp QMARK           &trans             &trans           &to 2
+                                      &to 0        &trans             &trans                &trans
             >;
         };
 
