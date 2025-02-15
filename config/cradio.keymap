@@ -13,10 +13,10 @@
 
         default_layer {
             bindings = <
-&mt N1 Q  &mt N2 W     &mt N3 E    &mt N4 R             &mt N5 T            &mt N6 Y             &mt N7 U         &mt N8 I    &mt N9 O     &mt N0 P
-&kp A     &mt LCTRL S  &mt LALT D  &mt LGUI F           &mt LC(B) G         &mt RC(B) H          &mt RIGHT_GUI J  &mt RALT K  &mt RCTRL L  &kp SEMI
-&kp Z     &kp X        &kp C       &kp V                &kp B               &kp N                &kp M            &kp COMMA   &kp DOT      &kp SQT
-                                   &mt LCTRL BACKSPACE  &mt LSHIFT SPACE    &mt RIGHT_ALT ENTER  &lt 1 COLON
+&mt N1 Q  &mt N2 W     &mt N3 E    &mt N4 R             &mt N5 T            &mt N6 Y        &mt N7 U         &mt N8 I    &mt N9 O     &mt N0 P
+&kp A     &mt LCTRL S  &mt LALT D  &mt LGUI F           &mt LC(B) G         &mt RC(B) H     &mt RIGHT_GUI J  &mt RALT K  &mt RCTRL L  &kp SEMI
+&kp Z     &kp X        &kp C       &kp V                &kp B               &kp N           &kp M            &kp COMMA   &kp DOT      &kp SQT
+                                   &mt LCTRL BACKSPACE  &mt LSHIFT SPACE    &mt LALT ENTER  &lt 1 COLON
             >;
         };
 
