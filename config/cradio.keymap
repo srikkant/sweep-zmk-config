@@ -13,19 +13,19 @@
 
         default_layer {
             bindings = <
-&mt N1 Q  &mt N2 W     &mt N3 E    &mt N4 R             &mt N5 T            &mt N6 Y        &mt N7 U         &mt N8 I    &mt N9 O     &mt N0 P
-&kp A     &mt LCTRL S  &mt LALT D  &mt LGUI F           &mt LC(B) G         &mt RC(B) H     &mt RIGHT_GUI J  &mt RALT K  &mt RCTRL L  &kp SEMI
-&kp Z     &kp X        &kp C       &kp V                &kp B               &kp N           &kp M            &kp COMMA   &kp DOT      &kp SQT
-                                   &mt LCTRL BACKSPACE  &mt LSHIFT SPACE    &mt LALT ENTER  &lt 1 COLON
+&kp Q  &kp W        &kp E       &kp R                &kp T               &kp Y           &kp U            &kp I       &kp O        &kp P
+&kp A  &mt LCTRL S  &mt LALT D  &mt LGUI F           &kp G               &kp H           &mt RIGHT_GUI J  &mt RALT K  &mt RCTRL L  &kp SEMI
+&kp Z  &kp X        &kp C       &kp V                &kp B               &kp N           &kp M            &kp COMMA   &kp DOT      &kp SQT
+                                &mt LCTRL BACKSPACE  &mt LSHIFT SPACE    &mt LALT ENTER  &lt 1 ESCAPE
             >;
         };
 
         right_layer {
             bindings = <
-&kp ESC    &kp N1        &kp N2       &kp N3         &kp MINUS          &mt RA(ENTER) LPAR    &kp RPAR            &kp LBKT           &kp RBKT         &kp BSLH
-&kp TAB    &mt LCTRL N4  &mt LALT N5  &mt LCMD N6    &mt RC(B) EQUAL    &mt RC(B) LEFT_ARROW  &mt RIGHT_GUI DOWN  &mt RALT UP_ARROW  &mt RCTRL RIGHT  &trans
-&kp GRAVE  &kp N7        &kp N8       &kp N9         &kp N0             &kp FSLH              &kp QMARK           &trans             &trans           &to 2
-                                      &kp BACKSPACE  &trans             &trans                &trans
+&kp ESC    &kp N1        &kp N2       &kp N3         &kp MINUS    &mt RA(ENTER) LPAR  &kp RPAR            &kp LBKT           &kp RBKT         &kp BSLH
+&kp TAB    &mt LCTRL N4  &mt LALT N5  &mt LCMD N6    &kp EQUAL    &kp LEFT            &mt RIGHT_GUI DOWN  &mt RALT UP_ARROW  &mt RCTRL RIGHT  &kp RC(B)
+&kp GRAVE  &kp N7        &kp N8       &kp N9         &kp N0       &kp FSLH            &kp QMARK           &trans             &trans           &to 2
+                                      &kp BACKSPACE  &trans       &trans              &trans
             >;
         };
 
