@@ -37,18 +37,18 @@
 
         default {
             bindings = <
-&kp Q             &kp W        &kp E       &kp R           &kp T          &kp Y        &kp U        &kp I           &kp O            &kp P
-&kp A             &kp S        &kp D       &kp F           &kp G          &kp H        &kp J        &kp K           &kp L            &kp SEMI
-&mt LEFT_SHIFT Z  &mt LCTRL X  &mt LALT C  &mt LEFT_GUI V  &kp B          &kp N        &mt RGUI M   &mt RALT COMMA  &mt RGUI PERIOD  &mt RSHIFT SQT
+&kp Q             &kp W        &kp E       &kp R           &kp T          &kp Y        &kp U        &kp I           &kp O             &kp P
+&kp A             &kp S        &kp D       &kp F           &kp G          &kp H        &kp J        &kp K           &kp L             &kp SEMI
+&mt LEFT_SHIFT Z  &mt LCTRL X  &mt LALT C  &mt LEFT_GUI V  &kp B          &kp N        &mt RGUI M   &mt RALT COMMA  &mt RCTRL PERIOD  &mt RSHIFT SQT
                                            &kp BACKSPACE   &lt 1 SPACE    &lt 2 ENTER  &lt 4 COLON
             >;
         };
 
         nums {
             bindings = <
-&kp EXCLAMATION       &kp AT_SIGN             &kp POUND            &kp DOLLAR                     &kp PERCENT      &kp CARET    &kp AMPERSAND               &kp ASTERISK          &kp MINUS               &kp EQUAL
-&kp N1                &kp N2                  &kp N3               &kp N4                         &kp N5           &kp N6       &kp N7                      &kp N8                &kp N9                  &kp N0
-&mt LEFT_SHIFT GRAVE  &mt LCTRL LEFT_BRACKET  &mt LALT LEFT_BRACE  &mt LEFT_GUI LEFT_PARENTHESIS  &kp BACKSLASH    &kp SLASH    &mt RGUI RIGHT_PARENTHESIS  &mt RALT RIGHT_BRACE  &mt RGUI RIGHT_BRACKET  &mt RSHIFT SQT
+&kp EXCLAMATION       &kp AT_SIGN             &kp POUND            &kp DOLLAR                     &kp PERCENT      &kp CARET    &kp AMPERSAND               &kp ASTERISK          &kp MINUS                &kp EQUAL
+&kp N1                &kp N2                  &kp N3               &kp N4                         &kp N5           &kp N6       &kp N7                      &kp N8                &kp N9                   &kp N0
+&mt LEFT_SHIFT GRAVE  &mt LCTRL LEFT_BRACKET  &mt LALT LEFT_BRACE  &mt LEFT_GUI LEFT_PARENTHESIS  &kp BACKSLASH    &kp SLASH    &mt RGUI RIGHT_PARENTHESIS  &mt RALT RIGHT_BRACE  &mt RCTRL RIGHT_BRACKET  &mt RSHIFT SQT
                                                                    &trans                         &trans           &lt 3 ENTER  &trans
             >;
         };
