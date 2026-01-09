@@ -1,6 +1,0 @@
-if SHIELD_SWEEP_PERIPHERAL_LEFT || SHIELD_SWEEP_PERIPHERAL_RIGHT
-
-config ZMK_SPLIT
-    default y
-
-endif
