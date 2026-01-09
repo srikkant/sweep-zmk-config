@@ -1,5 +1,5 @@
-#include "sweep.dtsi"
 #include "sweep-layout.dtsi"
+#include "sweep.dtsi"
 
 / {
 	chosen {
