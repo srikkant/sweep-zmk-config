@@ -3,6 +3,10 @@
         zmk,kscan = &kscan0;
     };
 
+    &default_transform {
+        col-offset = <17>;
+    };
+
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
         wakeup-source;
