@@ -10,6 +10,9 @@ if SHIELD_SWEEP_DONGLE
 config ZMK_KEYBOARD_NAME
 	default "srikkant Sweep"
 
+config ZMK_POINTING
+	default y
+
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
 
